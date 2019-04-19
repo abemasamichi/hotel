@@ -1,0 +1,170 @@
+body {
+
+    background-color: #FFFFFF;
+    color: #545454;
+    text-align: left;
+    font-size: 77%;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック';
+    line-height: 2.8;
+}
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.topimages {
+    position: relative;
+}
+
+.topimages figure {
+    width: 133px;
+    height: 200px;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+div {
+    list-style-type: none;
+}
+
+.box {
+    margin: 10px 500px;
+    ;
+    width: 100%;
+}
+
+.bxslider {
+    margin: 0px;
+}
+
+.bx-wrapper {
+    position: relative;
+}
+
+.bx-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #8B4513;
+}
+
+ul {
+    margin: 0 auto;
+    width: 960px;
+    list-style-type: none;
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.top {
+    width: 1100px;
+    margin: 0px 0px 45px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.copy {
+    width: 492px;
+    float: left;
+    font-size: 20px;
+    color: #0099CC;
+}
+
+.img {
+    float: right;
+    margin: 0px;
+}
+
+.news {
+    width: 960px;
+    margin: 70px 0px 55px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px #DDDDDD;
+    border-bottom: solid 1px #DDDDDD;
+}
+
+.news h2 {
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+
+.news ol {
+    margin: 25px 0px 20px 0px;
+}
+
+.news ol li {
+    height: 35px;
+    margin: 0px 0px 1px 0px;
+}
+
+.news ol li span {
+    width: 140px;
+    height: 35px;
+    margin: 0px 20px 0px 0px;
+    background-color: #555;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+}
+
+.news a {
+    color: #545;
+}
+
+.footer {
+    margin: 50px 0px 50px 0px;
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.footer div {
+    height: 232px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../images/Sakura2.png);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    text-align: center;
+    position: relative;
+}
